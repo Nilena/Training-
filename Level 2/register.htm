@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+     <title>My Website</title>
+  </head>
+
+  <header>   
+     <h1>Registration</h1>
+  </header>
+
+<body>
+
+<div class="topnav">
+<h4>
+<div class="topnav">
+   <a href="index.htm">Home</a>&nbsp;&nbsp;&nbsp;
+  <a href="register.htm">Register</a>&nbsp;&nbsp;&nbsp;
+  <a href="audio.htm">Audio</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="video.htm">Video</a>&nbsp;&nbsp;&nbsp;
+   <a href="canvas.html">Canvas</a>&nbsp;&nbsp;&nbsp;
+    <a href="svg.html">SVG</a>&nbsp;&nbsp;&nbsp;
+</div>
+</div>
+</h4>
+
+<br>
+
+<FIELDSET>
+<legend> Please Register here </legend>
+<form name="form" action="/action_page.php" method="GET">
+  Name:<br>
+  <input type="text" name="name"  placeholder="Enter your name "  required="" >
+  <br><br>
+  Email:<br>
+  <input type="email" name="email" placeholder="Enter your email"  required="true" value="">
+  <br><br>
+  Address:<br>
+  <input type="address" name="address" placeholder="Enter your address" value="" required="true">
+  <br><br>
+  Gender:<br>
+  <input type="radio" name="gender" value="male" checked> Male
+  <input type="radio" name="gender" value="female"> Female
+  <input type="radio" name="gender" value="other"> Other<br><br>
+
+   Mobile:<br>
+  <input type="number" name="number" placeholder="Enter your Mobile " value="" pattern="[0-9]{10}" required="true">
+  <br><br>
+
+
+  <input type="submit" value="Submit">
+</form> 
+
+</FIELDSET>
+	
+<footer>
+    <p>Posted by:Nilena </p>
+    <p>Contact information: <a href="mailto:nilena@example.com">
+          nilena@example.com</a>.</p>
+</footer>
+</body>
+
+</html>

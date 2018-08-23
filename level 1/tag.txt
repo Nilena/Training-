@@ -1,0 +1,23 @@
+Basic HTML
+Tag	Description
+<!DOCTYPE> 	Defines the document type
+<html>	Defines an HTML document
+<head>	Defines information about the document
+<title>	Defines a title for the document
+<body>	Defines the document's body
+<h1> to <h6>	Defines HTML headings
+<p>	Defines a paragraph
+<br>	Inserts a single line break
+<hr>	Defines a thematic change in the content
+<!--...-->	Defines a comment
+Formatting
+Tag	Description
+<acronym>	Not supported in HTML5. Use <abbr> instead.
+Defines an acronym
+<abbr>	Defines an abbreviation or an acronym
+<address>	Defines contact information for the author/owner of a document/article
+<b>	Defines bold text
+<bdi>	Isolates a part of text that might be formatted in a different direction from other text outside it
+<bdo>	Overrides the current text direction
+<big>	Not supported in HTML5. Use CSS instead.
+Defines big text

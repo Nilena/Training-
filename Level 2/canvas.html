@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head >
+	 <link rel="stylesheet" type="text/css"  href="styles.css">
+ 	 <title>My Website</title>
+</head>
+
+<header>
+	<h1>Mycanvas</h1>
+</header>
+
+<body>
+	<h4>
+	<div class="topnav">
+  		 <a class="active" href="index.htm">Home</a>&nbsp;&nbsp;&nbsp;
+ 		 <a href="register.htm">Register</a>&nbsp;&nbsp;&nbsp;
+ 		 <a href="audio.htm">Audio</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  		<a href="video.htm">Video</a>&nbsp;&nbsp;&nbsp;
+  		 <a href="canvas.html">Canvas</a>&nbsp;&nbsp;&nbsp;
+  		  <a href="svg.html">SVG</a>&nbsp;&nbsp;&nbsp;
+</div>
+</div>
+	</div>
+	</h4>
+
+<article>
+<h3>HTML Canvas</h3>
+<canvas width="200" height="200" id="canvas1" style="border:1px solid gray"></canvas>
+<script type="text/javascript">
+	var canvas = document.getElementById("canvas1");
+	var ctx = canvas.getContext("2d");
+	ctx.moveTo(0,0);
+	ctx.lineTo(100,150);
+	ctx.font = "30px Arial";
+	ctx.strokeText("Hello", 100, 160);
+	ctx.stroke();
+</script>
+
+</article>
+<footer>
+    <p>Posted by:Nilena </p>
+    <p>Contact information: <a href="mailto:nilena@example.com">
+          nilena@example.com</a>.</p>
+</footer>
+</div>
+</body>
+</html>
