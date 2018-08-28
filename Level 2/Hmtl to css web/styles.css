@@ -1,11 +1,26 @@
 body {
-    background-color: powderblue;
+    background-color: white;
     	margin: 0;
+      padding: 0;
 	
 }
-h1{
-	font-family: verdana;
+* {
+  box-sizing: border-box;
+}
+header{
+  background-color: yellow;
+  height: 40px;
+  padding-top: 10px;
+
+}
+/*head{
+  background-color: yellow;
+}*/
+header h1{
+	font-family: sans serif;
 		font-size:20px;
+    text-align: center;
+    margin: 0;
 }
 footer{
 
@@ -15,12 +30,18 @@ footer{
    width: 100%;
    color: white;
    text-align: center;
+z-index: 1;
    background-color: black;
-   font-size: 20px;
+  /*padding: 30px;*/
 
 }
 footer p{
+  font-family: sans serif;
   margin:0;
+   font-size: 15px;
+   padding: 20px;
+
+
 }
 .topnav {
 
@@ -29,8 +50,9 @@ footer p{
   	color: white;
     position: sticky;
     position: -webkit-sticky;
-  	top: 0;
+  	top: 0px;
   	width: 100%;
+    z-index: 1;
   }
 .topnav a {
   
@@ -44,13 +66,33 @@ footer p{
 .gallery {
   width: 400px;
   height: 490px;
-  overflow: hidden;
+  
   position:relative;
   left: 50px;
   right: 60px;
   margin: 5px;
   display: inline-block;
   border: 1px solid lightgray;
-  cursor: pointer;
+ overflow: hidden;
   vertical-align: top;
+  z-index: -1;
+}
+.gallery div {
+  /*overflow: auto;*/
+}
+article {
+  z-index: -1;
+}
+.clk-btn {
+  height: 150px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.1);
+}
+.clk-btn a {
+  display: block;
+  width: 100%;
+  
 }
