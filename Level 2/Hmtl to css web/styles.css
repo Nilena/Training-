@@ -39,7 +39,7 @@ footer p{
   font-family: sans serif;
   margin:0;
    font-size: 15px;
-   padding: 20px;
+   padding: 5px;
 
 
 }
@@ -55,7 +55,7 @@ footer p{
     z-index: 1;
   }
 .topnav a {
-  
+  margin:0;
   display: inline-block;
   color: #f2f2f2;
   text-align: center;
@@ -67,7 +67,6 @@ footer p{
   width: 400px;
   height: 490px;
  
-  position:relative;
   left: 50px;
   right: 60px;
   margin: 5px;
@@ -84,15 +83,28 @@ article {
   z-index: -1;
 }
 .clk-btn {
-  height: 150px;
+  height: 145px;
   position: relative;
   bottom: 0;
   left: 0;
   z-index: 1;
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.9);
 }
 .clk-btn a {
   display: block;
   width: 100%;
-  
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.clk-btn a:hover{
+
+    color: Grey;
+}
+
+/* selected link */
+a:active {
+    color: white;
+
 }
