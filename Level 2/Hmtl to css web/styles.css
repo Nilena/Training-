@@ -13,6 +13,14 @@ header{
   padding-top: 10px;
 
 }
+.mobmenu{
+  position: absolute;
+  left: 20px;
+  top:10px;
+  font-size: 25px;
+  font-weight: bold;
+  display: none;
+}
 /*head{
   background-color: yellow;
 }*/
@@ -53,6 +61,7 @@ footer p{
   	top: 0px;
   	width: 100%;
     z-index: 1;
+    text-align: center;
   }
 .topnav a {
   margin:0;
@@ -63,14 +72,18 @@ footer p{
   text-decoration: none;
   font-size: 17px;
 }
+.home
+{
+  text-align: center;
+}
 .gallery {
   width: 400px;
   height: 490px;
- 
   left: 50px;
   right: 60px;
   margin: 5px;
   display: inline-block;
+  text-align: left ;
   border: 1px solid lightgray;
  overflow: hidden;
   vertical-align: top;
@@ -106,5 +119,45 @@ article {
 /* selected link */
 a:active {
     color: white;
+
+}
+
+@media only screen and ( max-width : 565px )
+{
+
+  header{
+    position: fixed;
+    margin-top: 0;
+    top:0;
+    display: block;
+    width: 100%;
+  }
+  .topnav {
+    top:40px;
+    position: fixed;
+    display: none;
+    border: 1px;
+    background-color:black;
+    padding: 0px;
+z-index: 5;
+
+  }
+  .topnav a{
+    display: block;
+    padding: 5px 15px;
+
+  }
+  .topnav a:hover{
+    background-color: grey;
+
+  }
+  .mobmenu {
+
+    display: inline-block;
+  }
+  .mobmenu:hover  .topnav{
+
+    display: inline-block;
+  }
 
 }
