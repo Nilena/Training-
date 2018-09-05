@@ -14,12 +14,18 @@ header{
 
 }
 .mobmenu{
-  position: absolute;
+  position:relative;
   left: 20px;
   top:10px;
   font-size: 25px;
   font-weight: bold;
-  display: none;
+  display: none!important;
+}
+#sp{
+  position:absolute ;
+display: none;
+top:15px;
+left:50px;
 }
 /*head{
   background-color: yellow;
@@ -60,6 +66,7 @@ footer p{
     position: -webkit-sticky;
   	top: 0px;
   	width: 100%;
+    min-height: 45px;
     z-index: 1;
     text-align: center;
   }
@@ -125,7 +132,7 @@ a:active {
 @media only screen and ( max-width : 565px )
 {
 
-  header{
+  header {
     position: fixed;
     margin-top: 0;
     top:0;
@@ -135,11 +142,10 @@ a:active {
   .topnav {
     top:40px;
     position: fixed;
-    display: none;
     border: 1px;
     background-color:black;
     padding: 0px;
-z-index: 5;
+    z-index: 5;
 
   }
   .topnav a{
@@ -151,13 +157,20 @@ z-index: 5;
     background-color: grey;
 
   }
-  .mobmenu {
-
-    display: inline-block;
+  #sp{
+    display: block;
   }
-  .mobmenu:hover  .topnav{
-
-    display: inline-block;
+.menitems{
+  display:none;
+}
+ 
+  .topnav:hover .menitmes{
+display: block!important;
   }
+  .mobmenu{
+    display: block!important;
+    float: left;
+  }
+  
 
 }
