@@ -1,0 +1,16 @@
+/*pseudo class selector*/
+input:focus{
+	background-color:black;
+	color: white;
+}
+
+/*pseudo element selector*/
+#pseudo::after{
+	content:"!!!!!text!!!!";
+	font-size: 100px;
+}
+
+#para::selection{
+	color:white;
+	background: black;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="d4 combinators.css">
+</head>
+<body>
+	<div id="div1"><!--for div p-->
+		<p>This is the descendant of div1</p>
+	</div>
+	<div id="div2"><!--for div+p-->
+		<p id="para">This is the first child of div2</p>
+		<p>This is the second child of div2.Immediate sibling of #para</p>
+		<span> This is the third child of div2</span>
+		<p>This is the fourth child of div2</p>
+	</div>
+	<div id="div3"><!--for div>p-->
+		<p>Ths is the child of div3</p>
+	</div>
+	<p>This is the immediate sibling of div3</p>
+	<p>This is also a sibling of div3</p>
+	<!--for div~article-->
+	<article>This is an "article" sibling of div4</article>
+	<div id="div4">
+		<p>This is the child of div4</p>
+	</div>
+	<article>This is the next "article" sibling of div4</article>
+	<article>This is the next "article" sibling of div4</article>
+</body>
+</html>

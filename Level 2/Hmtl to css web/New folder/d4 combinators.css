@@ -1,0 +1,29 @@
+div{
+	border: 1px solid black;
+	margin-bottom: 10px;
+}
+/*descendants*/
+#div1 p{
+	color: red;
+}
+
+/*immediate adjacent siblings*/
+#para+p{
+	color: blue;
+}
+
+/*children*/
+#div3>p{
+	color: green;
+}
+
+/*immediate adjacent siblings*/
+#div3+p{
+	color: blue;
+}
+
+
+/*general sibling selector*/
+#div4~article{
+	color: #d742f4;
+}

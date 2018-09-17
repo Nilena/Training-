@@ -128,16 +128,23 @@ a:active {
     color: white;
 
 }
+video {
+  max-width: 640px;
+  width: 100%;
+}
 
 @media only screen and ( max-width : 565px )
 {
-
+body {
+  padding-top: 50px;
+}
   header {
     position: fixed;
     margin-top: 0;
     top:0;
     display: block;
     width: 100%;
+    z-index: 10;
   }
   .topnav {
     top:40px;
@@ -162,10 +169,11 @@ a:active {
   }
 .menitems{
   display:none;
+  padding-top: 50px;
 }
  
-  .topnav:hover .menitmes{
-display: block!important;
+  .topnav:hover .menitems{
+display: block;
   }
   .mobmenu{
     display: block!important;
