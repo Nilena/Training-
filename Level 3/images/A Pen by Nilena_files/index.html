@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!-- saved from url=(0088)https://s.codepen.io/boomerang/iFrameKey-8aeb7c1d-81d2-2df1-c431-ad88069de5bd/index.html -->
+<html lang="en" class=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style><script src="./console_runner-ce3034e6bde3912cc25f83cccb7caa2b0f976196f2f2d52303a462c826d54a73.js.download"></script><script src="./css_reload-2a5c7ad0fe826f66e054c6020c99c1e1c63210256b6ba07eb41d7a4cb0d0adab.js.download"></script><meta name="robots" content="noindex"><link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico"><link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111"><link rel="canonical" href="https://codepen.io/nilena/pen/xyPoMB">
+
+
+<style class="cp-pen-styles"></style></head><body>
+<script src="./angular.min.js.download"></script>
+<div ng-app="myapp" ng-controller="myCntl" class="ng-scope">
+  <input type="text" ng-model="data" class="ng-valid ng-dirty ng-valid-parse ng-not-empty ng-touched">
+  <ul>
+    <!-- ngRepeat:  x in names filter data -->
+    </ul>
+  <app-die>how are you?</app-die>
+</div> 
+<script src="./stopExecutionOnTimeout-41c52890748cd7143004e05d3c5f786c66b19939c4500ce446314d1748483e13.js.download"></script>
+<script>var app = angular.module("myapp", []);
+app.controller("myCntl", function ($scope) {
+  $scope.names = ['arun', 'Trestt', 'tttrrdkmkvmv', 'fddddd'];
+});
+
+app.directive('appDie', function ()
+{
+  return {
+    template: "how are you?" };
+
+
+});
+//# sourceURL=pen.js
+</script>
+</body></html>

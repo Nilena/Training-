@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/todo.css" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+</head>
+<body>
+<FIELDSET>
+<legend> Please Register here </legend>
+<form name="form" action="/action_page.php" method="GET">
+   Name:<br>
+  <input type="text" name="name"  placeholder="Enter your name"  required="" >
+  <br><br>
+  Email:<br>
+  <input type="email" name="email" placeholder="Enter your email"  required="true" value="">
+  <br><br>
+  Address:<br>
+  <input type="address" name="address" placeholder="Enter your address" value="" required="true">
+  <br><br>
+ Gender:<br>
+  <input type="radio" name="gender" value="male" checked> Male
+  <input type="radio" name="gender" value="female"> Female
+  <input type="radio" name="gender" value="other"> Other<br><br>
+
+   Mobile:<br>
+  <input type="number" name="number" placeholder="Enter your Mobile " value="" pattern="[0-9]{10}" required="true">
+  <br><br>
+
+
+  <input type="submit" value="Submit">
+
+
+</form> 
+
+</FIELDSET>

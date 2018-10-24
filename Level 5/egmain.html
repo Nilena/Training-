@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+<div ng-app="myapp" ng-controller="myCntl">
+  <input type ="text" ng-model="data">
+  <ul>
+    <li ng-repeat=" x in names ">{{x | lowercase }}</li>
+    </ul>
+    
+    <li ng-repeat=" x in names | filter : data">{{ x }}</li>
+    </ul>
+  <app-die></app-die>
+</div> 
+<script>
+  var app=angular.module("myapp",[]);
+app.controller("myCntl",function($scope){
+  $scope.names=['mcdoo','hhhhh','Makkffffffedu','kddddzddkuu'];
+  });
+
+app.directive('appDie',function()
+{
+  return{
+      template: "how are you?"
+  }
+
+});
+</script>

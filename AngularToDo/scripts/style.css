@@ -1,0 +1,29 @@
+.true{
+	text-decoration: line-through;
+}
+body{
+	background-color: white;
+}
+.container{
+  border: 1px solid white;
+  width: 40%;
+  min-height: 600px;
+  margin-left:340px;
+  padding: 50px;
+  margin-top:40px;
+  background-color: #55828B;
+}
+input[ type="text"]{
+	width:450px;
+	padding: 10px;
+}
+.add{
+	padding: 10px;
+}
+ul{
+	list-style-type:none;
+}
+.addd{
+	padding: 10px;
+	margin-left:50px;
+}

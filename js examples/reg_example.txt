@@ -1,0 +1,33 @@
+999-585-5693
++1 (824) 234-4567
+7348453489  
++91 34877 63442
+348 776 3442 
++91-87347634888
+8634878236478876
+54647686
+
+nilena.123@gmail.com
+nilena@gmail.com
+nilena_alex@yahoo.in
+nilena_alex@yahoo.i11
+nilena@yhahoo.124
+nilena@yhahoo.c
+@yhahoo.net\w
+
+nilena  alexander
+bngfjkjdkdd
+_dfkjlff derrrr
+eeee@$$% rrk
+nilenaalexandertyui
+nilenaalexander
+nilenaalexander1222
+nilenaalexander@@@@
+//let reg= new RegExp("\d");
+alert(reg.match("hai hai 222"));
+
+^\+?\d{1,3}\s?[(-]?\d{3}\)?\s?[-]?\d{2}?\s?\d?\s?[-]?\d{4}\b
+
+\b[a-zA-Z]+(\s)+[a-zA-Z]+\b
+
+([a-z]+)[\.]?\w+@[a-z]+\.[a-z]{2,3}

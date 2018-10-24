@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" >
+	<head><!DOCTYPE html>
+	<html lang="en">
+	<head>
+ 		 <meta charset="utf-8">
+		 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  		 <link rel="stylesheet" type="text/css" href="style.css">
+ 		 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+	</head>
+	<body>
+		<div class="container" ng-app="todoApp" ng-controller="todoController">
+  		<h2 style="text-align:center">TO DO APPLICATION</h2>
+  		<form ng-submit="onAdd()">
+			<input class= "inp" type="text" ng-model="toDo" id="task" placeholder=" Enter a Todo"> 
+			<button  class ="add">Add</button>
+		</form>
+		<ul>
+			<li ng-repeat="items in tasks | filter: flag"> 
+				<span  class= "{{items.status}}"> {{items.value}} </span>
+				<button class ="add" ng-click="delete(tasks.indexOf(items))">delete</button> <!-- to fetch arrayidex of item -->
+				<button class ="add" ng-click="complete(tasks.indexOf(items))">Status Toggle</button>
+			</li>
+		</ul>
+		<button class ="add addd" ng-click="filterS('')">All</button>
+		<button  class ="add addd"ng-click="filterS('true')">Completed</button>
+		<button  class ="add addd" ng-click="filterS('false')">Pending</button>
+ 		<br>
+ 		 <script src="scripts/main.js"></script>
+	</body>
+</html>

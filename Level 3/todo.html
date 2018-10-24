@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/todo.css" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+</head>
+<body>
+<div class="container">
+  <h2>TO DO APPLICATION</h2>
+<input id="task" placeholder=" Enter a Todo"> <button id="add">Add</button>
+  <br>
+    <br>
+  <div class="back">
+<button class="btn" onclick="filter(false)">Unchecked</button>
+<button class="btn" onclick="filter(true)">Checked</button>
+<button class="btn"  onclick="show();">Show all</button>  <br>  <br>  
+<div id="todos"></div>
+   <!--  <li><label>Pay Bills</label><button class="comp">Complete</button><button class="remove">Delete</button></li> -->
+</div>
+<!-- <img src="images/download.jpg"> -->
+</div>
+
+<script src="scripts/todo.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+let str=12-34-56;
+alert('12-34-56'.split('-')) // [12, 34, 56]
+
+
+
+$$	"$"
+$&	the whole match
+$`	a part of the string before the match
+$'	a part of the string after the match
+$n	if n is a 1-2 digit number, then it means the contents of n-th parentheses counting from left to r
